@@ -3,7 +3,7 @@ import streamlit as st
 import time
 import cv2
 import numpy as np
-from utils import find_angle, get_landmark_features, draw_text, draw_dotted_line
+from myutils import find_angle, get_landmark_features, draw_text, draw_dotted_line
 from thresholds import get_thresholds_beginner, get_thresholds_pro  # Import threshold functions
 import mediapipe as mp
 
